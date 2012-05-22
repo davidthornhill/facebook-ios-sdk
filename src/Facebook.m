@@ -315,7 +315,7 @@ static void *finishedContext = @"finishedContext";
 - (void)authorize:(NSArray *)permissions {
   self.permissions = permissions;
 
-  [self authorizeWithFBAppAuth:YES safariAuth:NO];
+  [self authorizeWithFBAppAuth:YES safariAuth:YES];
 }
 
 /**
